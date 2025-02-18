@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+}
+.card{
+    margin-top: 20px;
+    width: 500px;
+    height: 750px;
+    background-color: rgb(135, 0, 0);
+    border-radius: 25px;
+}
+
+.image{
+    padding-top: 35px;
+    width: 400px;
+    height: auto;
+    border-image: 40px gold;
+}
+
+.image img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    border: 5px solid gold;
+}
+
+.judul {
+    padding-top: 10px;
+    font-size: 45px;
+    font-style: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: goldenrod;
+}
+
+.deskripsi{
+    text-align: justify;
+    padding: 10px 30px;
+    color: goldenrod;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.link{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.link a{
+    font-size: 20px;
+    color: white;
+}
+
+.top-btn {
+    float: left;
+    margin: 20px;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+
+.ellipsis { 
+    float: right;
+    margin: 20px;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+
+.ellipsis:hover{
+    scale: 130%;
+}
+
+.top-btn:hover{
+    rotate: 90deg;
+    scale: 130%;
+}
+
+.top a{
+    font-size: 25px;
+}
+.sosmed{
+    background-color: black;
+    padding: 10px 12px;
+    border-radius: 20px;
+    transition: all .3s ease-in;
+}
+
+.sosmed:hover {
+    scale: 125%;
+    transform: translateY(-5px);
+}
+
+.fa-youtube {background-color: red;}
+.fa-facebook {background-color: rgb(20, 18, 138);}
+.fa-twitter {background-color: rgb(29, 181, 181);}
+.fa-instagram {background-image: linear-gradient(45deg, #feda75, #d62976, #d62976, #4f5bd5);}
